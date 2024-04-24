@@ -7,18 +7,19 @@ body
     align-items: center;
     height: 40vw;
     background-image: url(pinky.jpg);
+	background-repeat: none;
     padding: 260px 250px;
     margin: 1000px;
     background-size: cover;
     background-position: center;
-    font-family: Monotype Corsiva;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 .glow
 {
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 25%;
 	transform: translate(-50%, -50%);
 	margin: 0;
@@ -30,8 +31,9 @@ body
 {
 	list-style: none;
 	color: #484848;
-	font-family: Algerian;
-	font-size: 5em;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 7em;
+	font-weight: 600;
 	letter-spacing: 15px;
 	animation:  animate 1.5s linear infinite;
 }
@@ -78,7 +80,7 @@ body
 .glow1
 {
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 90%;
 	transform: translate(-50%, -50%);
 	margin: 0;
@@ -90,8 +92,9 @@ body
 {
 	list-style: none;
 	color: #484848;
-	font-family: Algerian;
-	font-size: 5em;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 7em;
+	font-weight: 600;
 	letter-spacing: 15px;
 	animation:  animate 1.5s linear infinite;
 }
@@ -134,8 +137,8 @@ body
 h1
 {
 	position: absolute;
-	top: 95%;
-	left: 18%;
+	top: 65%;
+	left: 55%;
 	margin: 0;
 	padding: 0;
 	color: #111;
@@ -211,4 +214,6 @@ audio
 	margin: 0;
 	padding: 0;
 	position: absolute;
+	top: 88%;
+	left: 15%;
 }
