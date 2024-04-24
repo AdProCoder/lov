@@ -137,8 +137,8 @@ body
 h1
 {
 	position: absolute;
-	top: 65%;
-	left: 55%;
+	top: 85%;
+	left: 62%;
 	margin: 0;
 	padding: 0;
 	color: #111;
@@ -215,5 +215,5 @@ audio
 	padding: 0;
 	position: absolute;
 	top: 88%;
-	left: 15%;
+	left: 35%;
 }
